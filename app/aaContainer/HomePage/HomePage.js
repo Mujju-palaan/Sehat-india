@@ -5,6 +5,8 @@ import Girl_saying_Hi from '../../../Animation/Girl_saying_Hi'
 import Testimonials from '../Testimonials/Testimonials'
 import BMICalculator from '../../../component/BMICalculator/BMICalculator'
 import TeamMembers from '../TeamMembers/TeamMembers'
+import Plantypes from '../../../component/Plantypes/Plantypes'
+import HomePlansCard from '../../../component/planscard/HomePlansCard'
 
 
 const HomePage = () => {
@@ -16,10 +18,9 @@ const HomePage = () => {
       <div className={styles.main_girl}>  
         <div className={styles.main_girl_right}>
           <h2>Hi !</h2>
-          <Girl_saying_Hi />
-        </div>
-        
-        <div className={styles.main_girl_content}>
+          <Girl_saying_Hi /> 
+        </div>       
+        {/* <div className={styles.main_girl_content}>
           <div className={styles.main_girl_content_c1} >
             <h1>Your Ultimate well-beign at Just ₹10 per/Day</h1>
             <p> In today's fast-paced world, SEHATm Nutrition isn't just a wellness platform, it's your gateway
@@ -28,12 +29,56 @@ const HomePage = () => {
               take charge of your well-being and transform it into a fulfilling lifestyle.
             </p>         
           </div>
-          {/* <div className={styles.main_girl_content_img}>
-            <img src='/img8.jpg'></img>
-          </div> */}
-        </div>
-      </div>
-  
+          
+        </div> */}
+      </div> 
+    </div>
+
+    <div style={{height:'40vh'}}></div>
+
+    <div style={{display:'flex', flexWrap:'wrap', gap:'4rem', textAlign:'center', justifyContent:'center'}}>
+      <HomePlansCard 
+        title="Weekly Diet Plan"
+        content={`Transform Your Life with Our Personalized Weight Loss Program.`}
+        Images="/plan1.webp"
+        link="WeightLossPrograms"
+      />
+      <HomePlansCard 
+        title="Grocery Delivery Service"
+        content={`Transform Your Life with Our Personalized Weight Loss Program.`}
+        Images="./plan2.webp"
+        link="WeightLossPrograms"
+      />
+      <HomePlansCard 
+        title="AI Recipe Maker"
+        content={`Transform Your Life with Our Personalized Weight Loss Program.`}
+        Images="./plan3.png"
+        link="WeightLossPrograms"
+      />
+      <HomePlansCard 
+        title="Virtual Workout Trainer"
+        content={`Transform Your Life with Our Personalized Weight Loss Program.`}
+        Images="./plan4.webp"
+        link="WeightLossPrograms"
+      />
+      <HomePlansCard 
+        title="Access to Ebooks/podcasts"
+        content={`Transform Your Life with Our Personalized Weight Loss Program.`}
+        Images="./plan5.webp"
+        link="WeightLossPrograms"
+      />
+      <HomePlansCard 
+        title="Virtual AI Therapy"
+        content={`Transform Your Life with Our Personalized Weight Loss Program.`}
+        Images="./plan6.jpg"
+        link="WeightLossPrograms"
+      />
+      <HomePlansCard 
+        title="Health Tracking Devices"
+        content={`Transform Your Life with Our Personalized Weight Loss Program.`}
+        Images="./plan7.webp"
+        link="WeightLossPrograms"
+      />
     </div>
 
       <section className={styles.section}>

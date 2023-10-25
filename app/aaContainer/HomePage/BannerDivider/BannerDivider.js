@@ -9,8 +9,13 @@ const BannerDivider = () => {
         <div className="content">
           <div className='title'>
             <center>
-            <h2>GET STARTED ON THE PATH TO HEALTH !</h2>
-            <h2>LIVING YOUR BEST LIFE</h2>
+            <h1>Your Ultimate well-beign at Just ₹10 per/Day</h1>
+            <div style={{padding:'2rem'}}></div>
+            <p> In today's fast-paced world, SEHATm Nutrition isn't just a wellness platform, it's your gateway
+              to an extraordinary life, available at an incredible rate of just ₹10 pre day, Seamlessly blending
+              personalized nutrition, cutting-edge technology and unwavering support, we empower you to
+              take charge of your well-being and transform it into a fulfilling lifestyle.
+            </p> 
             </center>
           </div>
           <div>

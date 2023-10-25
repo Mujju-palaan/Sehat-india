@@ -71,7 +71,11 @@
     text-align: center;
 } */
 .title{
-    padding: 20rem 2rem 2rem 6rem;
+    padding: 15rem 2rem 2rem 6rem;
     text-align: center;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+    justify-items: center;
     
 }
