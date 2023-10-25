@@ -34,7 +34,7 @@ const HomePage = () => {
       </div> 
     </div>
 
-    <div style={{height:'40vh'}}></div>
+    <div className={styles.extraheight}></div>
 
     <div style={{display:'flex', flexWrap:'wrap', gap:'4rem', textAlign:'center', justifyContent:'center'}}>
       <HomePlansCard 
@@ -92,7 +92,7 @@ const HomePage = () => {
             <div className={styles.box1_content}>
               <h1>
               <span1>1</span1>{" "}
-              <span2>Preamble</span2>
+              <span2>Preamble :</span2>
               </h1>
               <p>Begin by selecting thw wellness plan that aligns with your goals 
                 -individuals, Family or Corporate.

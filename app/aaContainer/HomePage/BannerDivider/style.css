@@ -66,10 +66,13 @@
     display: flex;
     /* position: relative; */
 }
-/* .hero .content h1{
+.hero .content h1{
     font-weight: 700;
     text-align: center;
-} */
+}
+.hero .content p{
+    padding-top: 2rem;
+}
 .title{
     padding: 15rem 2rem 2rem 6rem;
     text-align: center;
@@ -78,4 +81,26 @@
     align-items: center;
     justify-items: center;
     
+}
+
+@media (max-width: 400px) {
+    .hero .content{
+        display: flex;
+        flex-direction: column;
+        /* position: relative; */
+    }
+    .hero .content h1{
+        font-weight: 700;
+        font-size: 3rem;
+    }
+    .hero .content p{
+        padding-top: .5rem;
+    }
+    .title{
+        padding: 4rem 2rem 0rem 2rem;     
+    }
+    .bannervector{
+        z-index: 1;
+        margin-top: -5rem;
+    }
 }
