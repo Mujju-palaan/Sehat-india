@@ -12,7 +12,7 @@ import "swiper/css/autoplay";
 
 import { EffectCoverflow, Pagination, Navigation, Autoplay } from "swiper";
 
-const SwiperPlan = () => {
+const SwiperPlan = () => { 
   return (
     <div >
       
