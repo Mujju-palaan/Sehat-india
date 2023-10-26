@@ -11,7 +11,7 @@ const Header = () => {
     <header className={styles.main_header}>
       <div className={styles.navbar_brand}>
         <Link href="/">
-          <h1 style={style}> SEHAT</h1>
+          <h1 style={{fontFamily:'sans-serif,Pangeatext',fontSize:'48px',fontWeight:'400'}}> SEHAT</h1>
         </Link>
       </div>
       <Nav />

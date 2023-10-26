@@ -7,14 +7,14 @@ const BannerDivider = () => {
     <>
     <div className="hero">
         <div className="content">
-          <div className='title'>
+          <div className='title' style={{color:'whitesmoke'}}>
             <center>
-            <h1>Your Ultimate well-beign at Just ₹10 per/Day</h1>
-            <p> In today's fast-paced world, SEHATm Nutrition isn't just a wellness platform, it's your gateway
+            <h1 style={{color:'whitesmoke', fontFamily:'sans-serif'}}>Your Ultimate well-beign at Just ₹10 per/Day</h1>
+            {/* <p style={{fontFamily:'sans-serif'}}> In today's fast-paced world, SEHATm Nutrition isn't just a wellness platform, it's your gateway
               to an extraordinary life, available at an incredible rate of just ₹10 pre day, Seamlessly blending
               personalized nutrition, cutting-edge technology and unwavering support, we empower you to
               take charge of your well-being and transform it into a fulfilling lifestyle.
-            </p> 
+            </p>  */}
             </center>
           </div>
           <div className='bannervector'>

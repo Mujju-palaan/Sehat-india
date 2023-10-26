@@ -8,6 +8,7 @@ import TeamMembers from '../TeamMembers/TeamMembers'
 import Plantypes from '../../../component/Plantypes/Plantypes'
 import HomePlansCard from '../../../component/planscard/HomePlansCard'
 import SwiperPlan from './Swiper'
+import Partner from '../../aaContainer/HomePage/partner'
 
 const HomePage = () => {
   return (
@@ -34,7 +35,15 @@ const HomePage = () => {
       </div> 
     </div>
 
-    <div className={styles.extraheight}></div>
+    <div className={styles.extraheight} style={{textAlign:'center'}}>
+      <h1 style={{fontFamily:'sans-serif,Pangeatext',fontSize:'48px',fontWeight:'400',color:'#609a33'}}>
+        "Nutrition Tailored Just for You"</h1>
+      <p style={{fontFamily:'Pangeatext,sans-serif',color:'rgba(0,0,0,.5)'}}> In today's fast-paced world, SEHATm Nutrition isn't just a wellness platform, it's your gateway
+              to an extraordinary life, available at an incredible rate of just ₹10 pre day, Seamlessly blending
+              personalized nutrition, cutting-edge technology and unwavering support, we empower you to
+              take charge of your well-being and transform it into a fulfilling lifestyle.
+            </p> 
+    </div>
 
     {/* <div style={{display:'flex', flexWrap:'wrap', gap:'4rem', textAlign:'center', justifyContent:'center'}}>
       <HomePlansCard 
@@ -80,6 +89,7 @@ const HomePage = () => {
         link="WeightLossPrograms"
       />
     </div> */}
+    <Partner></Partner>
     <SwiperPlan></SwiperPlan>
 
       <section className={styles.section}>
@@ -156,7 +166,7 @@ const HomePage = () => {
         </section4>
       </section>
 
-      <section className={styles.journey}>
+      {/* <section className={styles.journey}>
         <main >
           <h1>Personalized Nutrition Plan</h1>
           <h1>"Nutrition Tailored Just for You"</h1>
@@ -173,7 +183,8 @@ const HomePage = () => {
               <img src='/AdobeStock_588971224_Preview.png' height={500} width={500}></img>
             </div>
           </div>
-      </section>
+      </section> */}
+      <BMICalculator></BMICalculator>
 
       <section className={styles.Testimonials}>
         <h1>We Never Stop Smiling !</h1>
@@ -182,13 +193,13 @@ const HomePage = () => {
         </p>
         
         <div style={{display:'flex'}}>
-        <TeamMembers></TeamMembers>
+        {/* <TeamMembers></TeamMembers> */}
         </div>
         
         <Testimonials></Testimonials>
       </section>
 
-      <BMICalculator></BMICalculator>
+      
       
 
 
