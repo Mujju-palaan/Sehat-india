@@ -7,7 +7,7 @@ import BMICalculator from '../../../component/BMICalculator/BMICalculator'
 import TeamMembers from '../TeamMembers/TeamMembers'
 import Plantypes from '../../../component/Plantypes/Plantypes'
 import HomePlansCard from '../../../component/planscard/HomePlansCard'
-
+import SwiperPlan from './Swiper'
 
 const HomePage = () => {
   return (
@@ -36,7 +36,7 @@ const HomePage = () => {
 
     <div className={styles.extraheight}></div>
 
-    <div style={{display:'flex', flexWrap:'wrap', gap:'4rem', textAlign:'center', justifyContent:'center'}}>
+    {/* <div style={{display:'flex', flexWrap:'wrap', gap:'4rem', textAlign:'center', justifyContent:'center'}}>
       <HomePlansCard 
         title="Weekly Diet Plan"
         content={`Transform Your Life with Our Personalized Weight Loss Program.`}
@@ -79,7 +79,8 @@ const HomePage = () => {
         Images="./plan7.webp"
         link="WeightLossPrograms"
       />
-    </div>
+    </div> */}
+    <SwiperPlan></SwiperPlan>
 
       <section className={styles.section}>
         <h1 style={{textAlign:'center'}}>How it Works</h1>
@@ -188,6 +189,7 @@ const HomePage = () => {
       </section>
 
       <BMICalculator></BMICalculator>
+      
 
 
     </div>
