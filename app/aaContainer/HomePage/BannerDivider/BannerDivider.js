@@ -8,9 +8,9 @@ const BannerDivider = () => {
     <div className="hero">
         <div className="content">
 
-          <div className='bannervector'>
+          {/* <div className='bannervector'>
             <Banner_Vector />
-          </div>
+          </div> */}
           <div className='title' style={{color:'whitesmoke'}}>
             <center>
             <h1 style={{color:'#F5F6F9', fontFamily:'sans-serif'}}>Your Ultimate well-beign at Just ₹10 per/Day</h1>
