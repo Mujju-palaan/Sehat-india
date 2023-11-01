@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 // import './swiper.css'
+import './swiperpro.css'
 import HomePlansCard from '../../../component/planscard/HomePlansCard'
 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -83,63 +84,71 @@ const SwiperPlan = () => {
           <SwiperSlide style={{marginLeft:'2.5rem'}}>
           <HomePlansCard 
         title="Weekly Diet Plan"
-        content={`Transform Your Life with Our Personalized Weight Loss Program.`}
+        content={`We specialize in crafting personalized weekly diet plans, tailored to your unique needs and goals. 
+        Let us guide you on your journey to a healthier and more balanced lifestyle.`}
         Images="/plan1.webp"
         link="WeightLossPrograms"
       />
           </SwiperSlide>
           <SwiperSlide>
           <HomePlansCard 
-        title="Grocery Delivery Service"
-        content={`Transform Your Life with Our Personalized Weight Loss Program.`}
-        Images="./plan2.webp"
-        link="WeightLossPrograms"
-      />
-          </SwiperSlide>
-          <SwiperSlide>
-          <HomePlansCard 
-        title="AI Recipe Maker"
-        content={`Transform Your Life with Our Personalized Weight Loss Program.`}
-        Images="./plan3.png"
-        link="WeightLossPrograms"
-      />
-          </SwiperSlide>
-          <SwiperSlide>
-          <HomePlansCard 
-        title="Virtual Workout Trainer"
-        content={`Transform Your Life with Our Personalized Weight Loss Program.`}
+        title="Workout Trainer"
+        content={` Your gateway to a healthier you. Achieve your fitness goals with our expert guidance.`}
         Images="./plan4.webp"
         link="WeightLossPrograms"
       />
           </SwiperSlide>
           <SwiperSlide>
           <HomePlansCard 
-        title="Access to Ebooks/podcasts"
-        content={`Transform Your Life with Our Personalized Weight Loss Program.`}
-        Images="./plan5.webp"
-        link="WeightLossPrograms"
-      />
-          </SwiperSlide>
-          <SwiperSlide>
-          <HomePlansCard 
-        title="Virtual AI Therapy"
-        content={`Transform Your Life with Our Personalized Weight Loss Program.`}
+        title="AI Therapy"
+        content={`Revolutionizing mental health support with innovative and accessible solutions. Explore the future of mental well-being.`}
         Images="./plan6.jpg"
         link="WeightLossPrograms"
       />
           </SwiperSlide>
+          
+          
           <SwiperSlide>
           <HomePlansCard 
-        title="Health Tracking Devices"
-        content={`Transform Your Life with Our Personalized Weight Loss Program.`}
+        title="AI Recipe Maker"
+        content={`Redefining cooking with smart and personalized recipe suggestions. Elevate your culinary experience with artificial intelligence.`}
+        Images="./plan3.png"
+        link="WeightLossPrograms"
+      />
+          </SwiperSlide>
+
+          <SwiperSlide>
+          <HomePlansCard 
+        title="Ebooks/podcasts"
+        content={`Your digital gateway to knowledge and entertainment. Dive into a world of limitless learning and captivating content.`}
+        Images="./plan5.webp"
+        link="WeightLossPrograms"
+      />
+          </SwiperSlide>
+
+          <SwiperSlide>
+          <HomePlansCard 
+        title="Grocery Delivery"
+        content={`The convenience you deserve, right at your doorstep. Shop smart and save time with our hassle-free grocery delivery service.`}
+        Images="./plan2.webp"
+        link="WeightLossPrograms"
+      />
+          </SwiperSlide>
+                  
+
+          <SwiperSlide>
+          <HomePlansCard 
+        title="Fitness Trackers"
+        content={`Your daily companion for a healthier you. Monitor, motivate, and achieve your fitness goals with precision.`}
         Images="./plan7.webp"
         link="WeightLossPrograms"
       />
           </SwiperSlide>
+        
           
           {/* ***********Slider dots******************** */}
 
-          <div className="slider-controler" style={{ paddingTop: "4rem" }}>
+          <div className="slider-controler" style={{ paddingTop: "8rem" }}>
             <div className="swiper-button-prev slider-arrow">
               <ion-icon name="arrow-back-outline"></ion-icon>
             </div>
@@ -150,7 +159,7 @@ const SwiperPlan = () => {
           </div>
 
           {/* ***********Slider arrows******************** */}
-        <div className="slider-controler">
+        {/* <div className="slider-controler">
           <div className="swiper-button-prev slider-arrow">
             <ion-icon name="arrow-back-outline"></ion-icon>
           </div>
@@ -158,7 +167,7 @@ const SwiperPlan = () => {
             <ion-icon name="arrow-forward-outline"></ion-icon>
           </div>
           <div className="swiper-pagination"></div>
-        </div>
+        </div> */}
 
           
         </Swiper>

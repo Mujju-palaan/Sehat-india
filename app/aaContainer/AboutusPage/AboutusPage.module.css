@@ -2,6 +2,7 @@
   margin: 2rem;
   padding: 6rem;
   gap: 2rem;
+  font-family: sans-serif;
 }
 .flex {
   display: flex;
@@ -43,6 +44,7 @@
   }
   .h3 {
     font-size: 2rem;
+    color: #50D5B1;
   }
   .main {
     margin: 2rem;

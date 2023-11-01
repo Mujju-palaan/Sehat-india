@@ -43,7 +43,7 @@ const BMICalculator = () => {
   return (
     <div className="app">
     <div className='container'>
-      <h2 className='center'>BMI Calculator</h2>
+      <h2 className='center' style={{color:'#50D5B1', fontFamily:'sans-serif,Pangeatext'}}>BMI Calculator</h2>
       <form onSubmit={calcBmi}>
  
         <div>

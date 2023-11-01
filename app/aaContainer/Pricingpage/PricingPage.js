@@ -1,12 +1,14 @@
 "use client";
 import PricingCard from '../../../component/PricingCard/PricingCard'
-import Familypricing from '@/component/PricingCard/Familypricing';
-import Businesspricing from '@/component/PricingCard/Businesspricing';
+import Familypricing from '../../../component/PricingCard/Familypricing';
+import Businesspricing from '../../../component/PricingCard/Businesspricing';
+import Testimonials from '../Testimonials/Testimonials';
+import styles from './styles.module.scss'
 
 const PricingPage = () => {
   return (
     <>
-      <h2 style={{ padding: "4rem 0 0 0", textAlign: "center" }}>
+      <h2 style={{ padding: "4rem 0 0 0", textAlign: "center" , color:'#50D5B1', fontFamily:'sans-serif'}}>
         Yearly Subscription
       </h2>
       <div
@@ -22,38 +24,53 @@ const PricingPage = () => {
         <PricingCard
           title={`Basic Plan`}
           subtitle={`For individual service`}
-          price={`365`}
+          price={`3650`}
           content1={`Personalized Nutrition`}
           content2={`Virtual Workouts`}
-          content3={`AI support`}
-          content4={`Progress Tracking`}
-          content5={`Apple/Samsung Kit`}
-          content6={`.`}
-          link={`https://buy.stripe.com/dR64k21zH80pbJuaEG`}
+          content3={`Mental Health`}
+          content4={`Grocery delivery`}
+          content5={`AI recipe maker`}
+          content6={`Expert Support`}
+          content7={`Health Tracking`}
+          content8={`Shared Wellness`}
+          content9={`Employee Well-being`}
+          content10={`24/7 Support`}
+          content11={`100% refund`}
+          link={`https://buy.stripe.com/bIY7wefqxcgFfZKdR2`}
         />
         <Familypricing
           title={`Family Plan`}
-          subtitle={`For family services`}
-          price={`1000`}
+          subtitle={`For family services (Recommended)`}
+          price={`36500`}
           content1={`Personalized Nutrition`}
           content2={`Virtual Workouts`}
-          content3={`AI support`}
-          content4={`Progress Tracking`}
-          content5={`Covers 5 family members`}
-          content6={`Apple/Samsung Kit each`}
-          link={`https://buy.stripe.com/3cs7we5PX6Wl7te28c`}
+          content3={`Mental Health`}
+          content4={`Grocery delivery`}
+          content5={`AI recipe maker`}
+          content6={`Expert Support`}
+          content7={`Health Tracking`}
+          content8={`Shared Wellness`}
+          content9={`Employee Well-being`}
+          content10={`24/7 Support`}
+          content11={`100% refund`}
+          link={`https://buy.stripe.com/dR68AifqxgwV00M3cp`}
         />
         <Businesspricing
           title={`Corporate Plan`}
           subtitle={`For business services`}
-          price={`5000`}
+          price={`365000`}
           content1={`Personalized Nutrition`}
           content2={`Virtual Workouts`}
-          content3={`AI support`}
-          content4={`Progress Tracking`}
-          content5={`Covers up to 50 employees`}
-          content6={`Apple/Samsung Kit each`}
-          link={`https://buy.stripe.com/fZe7wea6d3K914QdQV`}
+          content3={`Mental Health`}
+          content4={`Grocery delivery`}
+          content5={`AI recipe maker`}
+          content6={`Expert Support`}
+          content7={`Health Tracking`}
+          content8={`Shared Wellness`}
+          content9={`Employee Well-being`}
+          content10={`24/7 Support`}
+          content11={`100% refund`}
+          link={`https://buy.stripe.com/00g7we1zHcgF9BmfZc`}
         />
       </div>
       {/* <div className={styles.contact_section}>
@@ -65,6 +82,19 @@ const PricingPage = () => {
       
       </div>
       <CC /> */}
+      <section className={styles.Testimonials}>
+        <h1 style={{color:'#50D5B1', fontFamily:'sans-serif,Pangeatext'}}>We Never Stop Smiling !</h1>
+        <p style={{color:'gray',fontFamily:'sans-serif,Pangeatext'}}>
+          Hi and nice to meet you! This isour brave team. We work very hard to provide an awesome experience for you.
+        </p>
+        
+        <div style={{display:'flex'}}>
+        {/* <TeamMembers></TeamMembers> */}
+        </div>
+        
+        <Testimonials></Testimonials>
+      </section>
+
     </>
   );
 };

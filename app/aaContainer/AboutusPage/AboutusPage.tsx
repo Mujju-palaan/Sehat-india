@@ -3,27 +3,27 @@ import React, { useRef } from "react";
 import styles from "./AboutusPage.module.css";
 import Ourteam from "./Ourteam";
 import AboutusContent from "./AboutusContent";
-import hover3d from '../../aaUtlis/hoverImg'
+// import hover3d from '../../aaUtlis/hoverImg'
 
 const AboutusPage = () => {
-  const hero = useRef<HTMLDivElement>(null);
+  // const hero = useRef<HTMLDivElement>(null);
 
-  const hoverHero = hover3d(hero, {
-    x: 30,
-    y: -40,
-    z: 30,
-  });
+  // const hoverHero = hover3d(hero, {
+  //   x: 30,
+  //   y: -40,
+  //   z: 30,
+  // });
 
-  const imageHover = hover3d(hero, {
-    x: 20,
-    y: -5,
-    z: 11,
-  });
+  // const imageHover = hover3d(hero, {
+  //   x: 20,
+  //   y: -5,
+  //   z: 11,
+  // });
   return (
     <>
     
       <div className={styles.container}>
-      <div ref={hero}>
+      {/* <div ref={hero}>
         <div className={styles.flex}>
           <div style={{transform: hoverHero.transform,}}>
             <img className={styles.size} src="./aboutus_healthcheckup.jpg" style={{
@@ -47,9 +47,9 @@ const AboutusPage = () => {
             <button style={{ marginLeft: "2rem" }}>Read more</button>
           </div>
         </div>
-        </div>
+        </div> */}
         <div className={styles.main}>
-          <p>
+          <p style={{color:'gray'}}>
             Welcome to SEHAT Nutrition, your dedicated partner on the journey to
             a healthier, happier you. We go beyond being just a wellness
             platform; we are your unwavering ally, leveraging personalized
@@ -58,7 +58,7 @@ const AboutusPage = () => {
           </p>
 
           <h2 className={styles.h3}>Our Vision: Well-being as a Way of Life</h2>
-          <p>
+          <p style={{color:'gray'}}>
             At SEHAT Nutrition, we envision a world where well-being isn't just
             a goal it's a way of life. Picture families growing closer and
             healthier, individuals embracing their uniqueness, and businesses
@@ -67,7 +67,7 @@ const AboutusPage = () => {
           </p>
 
           <h2 className={styles.h3}>Our Commitment: Your Well-being Matters</h2>
-          <p>
+          <p style={{color:'gray'}}>
             Choosing SEHAT Nutrition means committing to your well-being. We
             recognize that each person is unique, so we offer tailored solutions
             for individuals, families, and businesses. We believe in
@@ -77,8 +77,11 @@ const AboutusPage = () => {
         </div>
       
 
-        <Ourteam />
+        
         <AboutusContent />
+
+        <Ourteam />
+
       </div>
     </>
   );

@@ -15,9 +15,9 @@
   align-items: center;
   text-align: center;
   background-color: #fff;
-  border: 2px #cbd2d9 solid;
+  border: 2px #50D5B1 solid;
   border-radius: 100%;
-  color: #67788a;
+  color: #50D5B1;
   content: counter(item);
   display: inline-flex;
   font-size: 16px;
@@ -30,7 +30,7 @@
   width: 30px;
 }
 .heading {
-  color: #67788a;
+  color: #50D5B1;
   font-family: "Optimistic Text Bold", Helvetica, Arial, sans-serif;
   font-size: 22px;
   letter-spacing: 1px;
@@ -44,6 +44,7 @@
 }
 .plpara {
   padding-left: 4.5rem;
+  color: gray;
 }
 
 @media screen and (max-width: 400px) {

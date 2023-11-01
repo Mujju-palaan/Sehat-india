@@ -17,16 +17,18 @@ const HomePlansCard = (props) => {
         <h2
           style={{
             textAlign: "center",
-            padding: "1rem 0 0 0",
-            fontWeight: "normal",
+            padding: "1.5rem 0 0 0",
+            fontWeight: "500",
             marginBottom: "0rem",
+            fontFamily:'Pangeatext,sans-serif',
+            color:'#50D5B1',
+            fontSize:'3rem'
           }}
         >
           {props.title}
         </h2>
-        <p style={{padding:'0rem 2rem', color:'gray', fontSize:'1.2rem'}}>{props.content}</p>
-        <div style={{ textAlign: "right", justifyContent: "flex-end", padding:'1rem'}}>
-              {/* <div className={styles.btn}>Read More</div> */}
+        <p style={{padding:'0rem 2rem', color:'gray', fontSize:'1.2rem',fontFamily:'Pangeatext,sans-serif'}}>{props.content}</p>
+        {/* <div style={{ textAlign: "right", justifyContent: "flex-end", padding:'1rem'}}>
               <Link href={`/${props.link}`} onClick={() => setOpenMenu(false)}>
                 <span style={{ textAlign: "right", fontSize: "1.4rem" }}>
                   Read More{" "}
@@ -35,7 +37,7 @@ const HomePlansCard = (props) => {
                   <AiOutlineDoubleRight style={{ paddingTop: "5px" }} />
                 </span>
               </Link>
-            </div>
+        </div> */}
         
     </div>
   )

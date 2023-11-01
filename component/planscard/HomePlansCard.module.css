@@ -29,6 +29,7 @@
       max-width: 32rem;
       min-width: 32rem;
       height: auto;
+      padding-bottom: 2rem;
     }
   }
   @media screen and (max-width: 585px) {

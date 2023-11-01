@@ -5,9 +5,10 @@
     align-items: center;
     text-align: center;
     background-color: #fff;
-    border: 3px #cbd2d9 solid;
+    // border: 3px #cbd2d9 solid;
+    border: 3px #50D5B1 solid;
     border-radius: 100%;
-    color: #67788a;
+    color: #50D5B1;
     content: counter(item);
     display: inline-flex;
     font-size: 32px;
@@ -29,7 +30,17 @@
     
 }
 .extraheight{
-    height: 40vh;
+    margin: 2rem;
+    padding: 10rem 2rem 2rem 2rem;
+    h1{
+        font-family: sans-serif,Pangeatext;
+        font-size: 48px;
+        font-weight: 400;
+        color:#50D5B1
+    }
+    p{
+        padding: 4rem 12rem 4rem 12rem;
+    }
 }
 .main{
     padding: 0rem;
@@ -264,13 +275,24 @@
 }
 
 @media screen and (max-width: 400px) {	
-	.extraheight{
-        height: 20vh;
+	
+    .extraheight{
+        margin: 0rem;
+        padding: 2rem;
+        h1{
+            font-family: sans-serif,Pangeatext;
+            font-size: 25px;
+            font-weight: 400;
+            color:#50D5B1
+        }
+        p{
+            padding: 1rem;
+        }
     }
     .section{
         h1{
             padding: 8rem 0rem 4rem 0rem;
-            font-size: 4rem;
+            font-size: 3rem;
         }
         section1{
             .box1{
@@ -289,11 +311,12 @@
                     }
                 }
                 &_content{
+                    color: #50D5B1;
                     width: 100%;
                     padding: 1rem;
                     h1{
                         padding: 1rem 0rem;
-                        font-size: 2.5rem;
+                        font-size: 2rem;
                         span1{
                             @include circle()
                         }
@@ -331,7 +354,7 @@
                     padding-left: 2rem;
                     h1{
                         padding: 0rem;
-                        font-size: 2.5rem;
+                        font-size: 2rem;
                         span1{
                             @include circle()
                         }
@@ -370,7 +393,7 @@
                     padding-left: 2rem;
 
                     h1{
-                        font-size: 2.5rem;
+                        font-size: 2rem;
                         padding: 1rem 0rem;
                         span1{
                             @include circle()
@@ -409,7 +432,7 @@
                     text-align: left;
                     padding-left: 2rem;
                     h1{
-                        font-size: 2.5rem;
+                        font-size: 2rem;
                         padding: 0%;
                         span1{
                             @include circle()

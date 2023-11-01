@@ -1,5 +1,6 @@
 .plan-card {
-  background: #f2e9e9;
+  /* background: #f2e9e9; */
+  background: #F5F6F9 ;
   width: 30rem;
   padding-left: 5rem;
   padding-right: 2rem;
@@ -10,7 +11,11 @@
   box-shadow: 0 6px 30px rgba(207, 212, 222, 0.3);
   font-family: "Poppins", sans-serif;
 }
-
+.icon{
+  color: #50D5B1;
+  height: 2.5rem;
+  width: 2.5rem;
+}
 .plan-card h2 {
   margin-bottom: 15px;
   font-size: 27px;
@@ -27,7 +32,8 @@
 
 .etiquet-price {
   position: relative;
-  background: #fdbd4a;
+  /* background: #fdbd4a; */
+  background: #50D5B1;
   width: 27rem;
   margin-left: -0.65rem;
   padding: 0.2rem 1.2rem;
@@ -43,7 +49,7 @@
 }
 
 .etiquet-price p:before {
-  content: "$";
+  content: "₹";
   margin-right: 5px;
   font-size: 15px;
   font-weight: 300;
@@ -62,7 +68,8 @@
   right: 0px;
   width: 0;
   height: 0;
-  border-top: 13px solid #c58102;
+  /* border-top: 13px solid #c58102; */
+  border-top: 13px solid #50D5B1;
   border-bottom: 10px solid transparent;
   border-right: 13px solid transparent;
   z-index: -6;
@@ -106,7 +113,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #000446;
+  background: #50D5B1;
   color: #fff;
   padding: 15px 15px;
   border-radius: 12px;

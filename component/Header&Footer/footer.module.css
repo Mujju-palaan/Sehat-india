@@ -1,5 +1,6 @@
 .footer {
-  background: #161617;
+  /* background: #161617; */
+  background: #50D5B1 ;
   width: 100%;
   margin: 6rem auto 0 auto;
 }
@@ -147,7 +148,7 @@
   width: calc(100% + 55px);
   outline: none;
   border: 2px solid #afafb6;
-  background: #161617;
+  background: #F5F6F9;
   border-radius: 4px;
   padding: 0 15px;
   font-size: 15px;
@@ -156,7 +157,7 @@
 }
 
 .link-boxes .input-box input::placeholder {
-  color: #afafb6;
+  color: #50D5B1;
   font-size: 16px;
 }
 

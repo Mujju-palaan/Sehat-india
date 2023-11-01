@@ -23,12 +23,14 @@ const Footer = () => {
   };
   return (
     <>
-      <footer className={styles.footer}>
+      <footer className={styles.footer} style={{color:'#F5F6F9', fontFamily:'sans-serif'}}>
         <div className={styles.content}>
           <div className={styles.top}>
             <div className={styles["logo-details"]}>
               {/*<i className={styles.fab fa-slack]></i>*/}
-              <span className={styles.logo_name}>SEHAT</span>
+              <span className={styles.logo_name}
+                style={{fontFamily:'gill sans',fontSize:'48px',fontWeight:'400',color:'#F5F6F9'}}
+              >SEHAT</span>
             </div>
             <div className={styles[`media-icons`]}>
               <Link href="https://www.facebook.com" target="_blank">
@@ -155,10 +157,10 @@ const Footer = () => {
             <ul className={`${styles.box} ${styles["input-box"]}`}>
               <li className={styles.link_name}>Subscribe</li>
               <li>
-                <input type="text" placeholder="Enter your email" />
+                <input type="text" placeholder="Enter your email" style={{color:'#50D5B1'}} />
               </li>
               <li>
-                <input type="button" value="Subscribe" />
+                <input type="button" value="Subscribe" style={{color:'#50D5B1'}}/>
               </li>
             </ul>
           </div>

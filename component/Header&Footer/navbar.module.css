@@ -11,9 +11,9 @@
   background-size: 400% 400%;
   /* background: #e66465; */
 
-  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+  /* box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
     rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
 }
 
 .navbar_brand {
@@ -101,7 +101,8 @@
 
 @media screen and (max-width: 400px) {
   .main_header {
-    padding: 0 5rem;
+    padding: 0 2rem; 
+    /* 5rem */
   }
 
   .mobile-navbar-btn {
@@ -112,7 +113,7 @@
 
   .mobile-nav-icon {
     font-size: 4.2rem;
-    color: #161617;
+    color: #F5F6F9;
   }
 
   .mobile-nav-icon:hover,

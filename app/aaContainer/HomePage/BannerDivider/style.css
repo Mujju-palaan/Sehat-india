@@ -12,10 +12,21 @@
     /* border: none;
     background: linear-gradient(#e66465, #9198e5); */
     /* background: linear-gradient(rgba(64, 91, 125, 0.2),#609a33); */
-    background-color: rgba(64, 91, 125, 0.2);
+    background-color: #50D5B1;
     /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    padding: 1rem 2rem 0rem 2rem;     
+}
+.bannervector{
+    z-index: 1;
+    margin-top: -5rem;
 }
 @keyframes gradient {
 	0% {
@@ -66,6 +77,7 @@
     z-index: 2;
     text-align: center;
     display: flex;
+    flex-direction: column-reverse;
     /* position: relative; */
 }
 .hero .content h1{
@@ -76,6 +88,7 @@
     padding-top: 2rem;
 }
 .title{
+    margin-top: -3rem;
     padding: 15rem 2rem 2rem 6rem;
     text-align: center;
     justify-content: center;
@@ -86,6 +99,9 @@
 }
 
 @media (max-width: 400px) {
+    .hero{
+        height: 50vh;
+    }
     .hero .content{
         display: flex;
         flex-direction: column;
@@ -99,10 +115,11 @@
         padding-top: .5rem;
     }
     .title{
-        padding: 4rem 2rem 0rem 2rem;     
+        padding: 1rem 2rem 0rem 2rem;     
     }
     .bannervector{
         z-index: 1;
         margin-top: -5rem;
+        padding-left: 4rem;
     }
 }
